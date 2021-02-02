@@ -1,0 +1,25 @@
+.chatHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 10px;
+  background-color: rgba(231, 234, 239, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.chatHeader__info {
+  display: flex;
+  align-items: center;
+}
+.chatHeader__info > h3 {
+  margin-left: 10px;
+}
+
+.chatHeader__func > .MuiSvgIcon-root {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: rgba(204, 204, 204, 0.25);
+  color: #2280f1;
+}

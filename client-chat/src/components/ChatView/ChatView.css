@@ -1,0 +1,11 @@
+.chatView {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatView__date {
+  font-size: 10px;
+  font-weight: bold;
+  color: gray;
+  margin: 0 auto;
+}
